@@ -1,0 +1,71 @@
+# Android build files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.settings
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/.gradle
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.modulemap
+ios/Flutter/GeneratedPluginRegistrant.swift
+ios/Pods/
+ios/Podfile.lock
+
+# Keystore files (NEVER commit!)
+*.jks
+*.keystore
+*.key
+android/key.properties
+
+# Node/npm (if used)
+node_modules/
+npm-debug.log
+
+# Environment
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary
+*.tmp
+*.bak
+*.backup
+
+# Build outputs
+*.aab
+release/
+dist/
